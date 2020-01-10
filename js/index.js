@@ -1,10 +1,10 @@
 /* eslint-env jquery */
 $(document).ready(function() {
   // reipples
-  $("#header,.info").ripples({
-    resolution: 200,
-    perturbance: 0.04
-  });
+  // $("#header,.info").ripples({
+  //   dropRadius: 25,
+  //   perturbance: 0.6
+  // });
 
   // magnific popup
   $(".parent-container").magnificPopup({
