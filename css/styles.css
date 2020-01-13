@@ -189,18 +189,14 @@ body {
       rgba(255, 255, 255, 0.7),
       rgba(255, 255, 255, 0.7)
     ),
-    url(../img/sushTwoiPlates.jpg);
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+    url(../img/sushTwoiPlates.jpg) center/cover fixed no-repeat;
 }
 .special {
   border: 3px solid #d3325f;
   position: relative;
 }
 
-.specia-text {
+.special-text {
   position: absolute;
   top: 0;
   right: 10%;
@@ -210,41 +206,41 @@ body {
 
 /* ###### about ####### */
 
-.about-pictures{
+.about-pictures {
   position: relative;
 }
 
-.about-image{
+.about-image {
   position: absolute;
   width: 150px;
-  transition: ALL 2S ease;
+  transition: ALL 2s ease;
   opacity: 0.9;
 }
 
-.img-1{
+.img-1 {
   left: 0%;
-  top: 0%;  
+  top: 0%;
 }
-.img-2{
+.img-2 {
   left: 20%;
-  top: 20%; 
-  z-index: 10; 
+  top: 20%;
+  z-index: 10;
 }
-.img-3{
+.img-3 {
   left: 40%;
-  top: 45%;  
-  z-index: 20; 
+  top: 45%;
+  z-index: 20;
 }
-.img-4{
+.img-4 {
   left: 40%;
-  top: 0%; 
+  top: 0%;
 }
-.img-5{
+.img-5 {
   left: 0%;
-  top: 45%;  
+  top: 45%;
 }
 
-.about-image:hover{
+.about-image:hover {
   outline: 10px solid #d3325f;
   outline-offset: 0.8rem;
   transform: scale(1.3) rotate(20deg);
@@ -252,20 +248,17 @@ body {
   opacity: 1;
 }
 
-.about-pictures:hover .about-image:not(:hover){
+.about-pictures:hover .about-image:not(:hover) {
   opacity: 0.5;
 }
 
 /* ######## review ####### */
 
-.review-item{
+.review-item {
   background: rgba(255, 255, 255, 0.7);
   clip-path: polygon(5% 0, 100% 0, 90% 100%, 0 100%);
 }
 
-.review-img{
-width: 150px;
+.review-img {
+  width: 150px;
 }
-
-
-
