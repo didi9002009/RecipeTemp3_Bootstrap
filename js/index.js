@@ -10,7 +10,7 @@ $(document).ready(function() {
     let position = $(this).scrollTop();
     if (position >= 718) {
       $(".navbar").addClass("navbar-background");
-      $(".navbar").addClass("fixed-top");
+      $(".navbar").addClass("fixed-top"); // sticky-top would do the trick
     } else {
       $(".navbar").removeClass("navbar-background");
       $(".navbar").removeClass("fixed-top");
@@ -18,7 +18,7 @@ $(document).ready(function() {
   });
 
   // smooth scroll
-  $(".nav-item a, .header-link, #back-to-top").click(function() {
+  $(".nav-item a, .header-link, #back-to-top").click(function(link) {
     link.preventDefault();
 
     let target = $(this).attr("href");
@@ -36,9 +36,9 @@ $(document).ready(function() {
   $(window).scroll(function() {
     let position = $(this).scrollTop();
     if (position >= 718) {
-      $(".#back-to-top").addClass("scrollTop");
+      $("#back-to-top").addClass("scrollTop");
     } else {
-      $(".#back-to-top").removeClass("scrollTop");
+      $("#back-to-top").removeClass("scrollTop");
     }
   });
 
