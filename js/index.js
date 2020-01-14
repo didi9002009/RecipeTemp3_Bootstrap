@@ -49,10 +49,10 @@ $(document).ready(function() {
   });
 
   // reipples
-  // $("#header,.info").ripples({
-  //   dropRadius: 25,
-  //   perturbance: 0.6
-  // });
+  $("#header,.info").ripples({
+    dropRadius: 25,
+    perturbance: 0.6
+  });
 
   // magnific popup
   $(".parent-container").magnificPopup({

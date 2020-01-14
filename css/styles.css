@@ -31,16 +31,16 @@ body {
   color: #242424;
 }
 
-/* ############# header############# */
+/* ############# header  ############# */
 #header {
   min-height: calc(100vh - 94px);
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../img/roundPlate.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  position: relative;
+  position: relative; */
 }
 
 .height-90 {
@@ -245,10 +245,10 @@ body {
 
 #menu {
   background: linear-gradient(
-      rgba(255, 255, 255, 0.7),
-      rgba(255, 255, 255, 0.7)
-    ),
-    url(../img/sushTwoiPlates.jpg) center/cover fixed no-repeat;
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.7)
+  );
+  /* url(../img/sushTwoiPlates.jpg) center/cover fixed no-repeat; */
 }
 .special {
   border: 3px solid #d3325f;
