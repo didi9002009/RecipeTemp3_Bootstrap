@@ -8,7 +8,8 @@ $(document).ready(function() {
   // sticky nabar less paddin
   $(window).scroll(function() {
     let position = $(this).scrollTop();
-    if (position >= 718) {
+    console.log(position);
+    if (position >= 1238) {
       $(".navbar").addClass("navbar-background");
       $(".navbar").addClass("fixed-top"); // sticky-top would do the trick
     } else {
@@ -35,11 +36,16 @@ $(document).ready(function() {
   // back to top
   $(window).scroll(function() {
     let position = $(this).scrollTop();
-    if (position >= 718) {
+    if (position >= 1238) {
       $("#back-to-top").addClass("scrollTop");
     } else {
       $("#back-to-top").removeClass("scrollTop");
     }
+  });
+
+  //carousel
+  $("#slider").carousel({
+    interval: 1000
   });
 
   // reipples

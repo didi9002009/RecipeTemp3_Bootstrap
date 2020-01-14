@@ -384,7 +384,6 @@ body {
 }
 .scrollTop {
   position: fixed;
-  top: 0;
   bottom: 70px;
   right: 10px;
 }
