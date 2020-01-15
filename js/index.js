@@ -9,7 +9,7 @@ $(document).ready(function() {
   $(window).scroll(function() {
     let position = $(this).scrollTop();
     console.log(position);
-    if (position >= 1238) {
+    if (position >= 718) {
       $(".navbar").addClass("navbar-background");
       $(".navbar").addClass("fixed-top"); // sticky-top would do the trick
     } else {
@@ -36,7 +36,7 @@ $(document).ready(function() {
   // back to top
   $(window).scroll(function() {
     let position = $(this).scrollTop();
-    if (position >= 1238) {
+    if (position >= 718) {
       $("#back-to-top").addClass("scrollTop");
     } else {
       $("#back-to-top").removeClass("scrollTop");
